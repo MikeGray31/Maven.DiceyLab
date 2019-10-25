@@ -5,10 +5,6 @@ import java.util.Scanner;
  */
 public class Console {
 
-    public void updatedisplay(){
-
-    }
-
     public static void print(String output, Object... args) {
         System.out.printf(output, args);
     }

@@ -1,7 +1,7 @@
 
 public class Bins {
-    Integer[] theBins;
-    int min;
+    private Integer[] theBins;
+    private int min;
     //constructor
     public Bins(int minimum, int maximum){
         min = minimum;
@@ -19,16 +19,4 @@ public class Bins {
     public Integer getBin(int numWeWant){
         return theBins[numWeWant - min];
     }
-
-    //returns the number of times int "num" appears in the results
-//    public Integer getBin(int num){
-//        int counter = 0;
-//        for(int i = 0; i < holder.length; i++){
-//            if(num == holder[i]){
-//                counter++;
-//            }
-//        }
-//
-//        return counter;
-//    }
 }
